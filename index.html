@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body>
+    <main>
+        <h1 class="text-[#660000] text-5xl">Tic-Tac-Toe</h1>
+        <div class="msg-container hide h-[70vh] flex items-center justify-center flex-col gap-[4em]">
+            <p id="msg" class="text-[5vmin] text-[#07941e]">Winner</p>
+            <button id="new-btn" class="w-[150px] border-none rounded-[1rem] p-[1rem] text-[1.5rem] bg-[#ec50b8] text-[#fcd5d0] cursor-pointer">New Game</button>
+        </div>
+        <div class="container hide h-[70vh] flex items-center justify-center flex-col ">
+            <div class="game relative lg:left-10 md:left-10 sm:left-0 h-[60vmin] w-[60vmin] flex items-center justify-center flex-wrap gap-[1.5vmin] ">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset-btn" class="hide w-[150px] border border-none rounded-[1rem] p-[1rem] text-[1.5rem] bg-[#ec50b8] text-[#fcd5d0] cursor-pointer">Reset</button>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

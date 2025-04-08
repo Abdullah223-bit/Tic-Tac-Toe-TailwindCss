@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme{
+    --shadow-3xl: 0 0 1rem rgba(0, 0, 0, 0.3);  
+}
+
+*{
+    @apply m-0 p-0 box-border;
+}
+/* bg-[#FC89AC]  bg-linear-to-r/oklab from-indigo-500 to-teal-400*/
+body{
+    @apply  text-center bg-[url("/tic.jpg")] bg-cover;
+}
+
+.hide{
+    @apply hidden;
+}
+
+.box{
+    @apply h-[18vmin] w-[18vmin] border border-none rounded-[1rem] text-[8vmin] shadow-3xl text-[#FDBCB4]  bg-[#660000];
+}
+
