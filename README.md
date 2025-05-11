@@ -23,5 +23,8 @@ A fun and interactive Tic-Tac-Toe game built using HTML, Tailwind CSS v4,JavaScr
 
 ---
 
-## 📁 Project Structure
+
+![image](https://github.com/user-attachments/assets/3c0d45f6-f2d0-44e9-ab21-43639c316a8f)
+![image](https://github.com/user-attachments/assets/69c9a372-d222-43cc-9df9-844bd8deb8ff)
+
 
